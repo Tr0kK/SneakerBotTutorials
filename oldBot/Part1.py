@@ -11,7 +11,7 @@ def URLGen(model, size):
 	URL = 'http://www.adidas.com/us/' + str(model) + '.html?forceSelSize=' + str(model) + '_' + str(ShoeSizeCode)
 	return URL
 
-Model = raw_input('Model #: ')
+Model = raw_input('Model #:CZ2650-100)
 Size = input('Size: ')
 
 URL = URLGen(Model, Size)
